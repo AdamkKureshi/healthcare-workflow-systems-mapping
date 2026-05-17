@@ -27,7 +27,7 @@ def calculate_distance_km(lat1, lon1, lat2, lon2):
 
 @st.cache_data
 def load_data():
-    file_path = "data/healthcare_facility_mapping_demo.csv"
+    file_path = "sample_data/healthcare_facility_mapping_demo.csv"
     return pd.read_csv(file_path)
 
 # ============================================================
